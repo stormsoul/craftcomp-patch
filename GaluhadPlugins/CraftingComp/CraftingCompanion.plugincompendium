@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>763</Id>
+  <Name>Crafting companion</Name>
+  <Version>1.4.1</Version>
+  <Author>Galuhad</Author>
+  <InfoUrl>http://www.lotrointerface.com/downloads/info763</InfoUrl>
+  <DownloadUrl>http://www.lotrointerface.com/downloads/download763</DownloadUrl>
+  <Descriptors>
+    <descriptor>GaluhadPlugins\CraftingComp.plugin</descriptor>
+  </Descriptors>
+  <Dependencies />
+</PluginConfig>

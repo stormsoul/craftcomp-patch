@@ -1,0 +1,37 @@
+1.4.1 -
+
+- ...ugins\GaluhadPlugins\CraftingComp\CraftFunctio n s.lua:133 should now be resolved
+
+1.4.0 -
+
+- Updated the plugin to recognise Gundabad tier. This should resolve a number of loading errors, including:
+  ...line\Plugins\GaluhadPlugins\CraftingComp\MainWin.lua:440: attempt to perform arithmetic on field '?' (a nil value)
+  ..ugins\GaluhadPlugins\CraftingComp\CraftFunctions .lua:390: attempt to index field '?' (a nil value)
+
+1.3.0 -
+
+- Added a window to show your alt's progress. You can also use this window to view learnt recipes (you will need to load the plugin on each character to make sure it is up to date).
+- Updated tiers to Minas Ithil - this should hopefully resolve many of the loading errors. 
+- Added a desktop icon for easier opening of the window.
+- Fixed a bug that caused the base ingredients quantites to sometimes show the wrong amount when the recipe quantity is altered.
+
+
+1.2.0 - 
+
+- Recipe list now shows xp remaining for each tier.. then each recipe within shows how much to craft to max out.
+- Recipe view also shows this, but with an additional quantity/xp if crafted ingredients are also used - this total assumes you will get xp for crafting those as well.
+- Added event listeners for when xp changes - other totals adjusted accordingly.
+- Shopping list is now in - you can add ingredients you need to source across alts and review on each character. Quantites can be edited or deleted from the shopping list window.
+- Added F12/ESC button listeners to hide the windows when needed.
+- Added a quantity button to the ingredients list header which you can adjust depending on how many items you want to craft - the ingredients needed will adjust to reflect the amount entered.
+- The base list ingredients header can now slide up and down so you can see easier whichever list you prefer more.
+- Inventory window will now save its position and no longer force itself to the centre.
+
+
+1.1.0 - 
+
+- Added tooltip feature when you mouse over an ingredient - the tooltip will tell you on what characters
+you have items available.
+- Optional ingredients now also recognise how many you have available and will grey out if there is 
+not enough quantity.
+- Inventory list is now automatically sorted alphabetically.

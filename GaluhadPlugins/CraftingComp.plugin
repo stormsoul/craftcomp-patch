@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>Crafting Companion</Name>
+		<Author>Galuhad</Author>
+		<Version>1.4.1</Version>
+		<Description>This plugin assists you with your day-to-day crafting.
+
+You are able to look up recipes and ingredients across alts to plan your crafting. You can also see the base ingredients needed to make each recipe and adjust recipe quantities to calculate ingredients needed. </Description>
+		<Image>GaluhadPlugins/CraftingComp/Resources/MainIcon.tga</Image>
+	</Information>
+	<Package>GaluhadPlugins.CraftingComp.Main</Package>
+	<Configuration Apartment="Crafting Companion" />
+</Plugin>
